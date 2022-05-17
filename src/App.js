@@ -1,9 +1,9 @@
-import About from "./Components/About";
+// import About from "./Components/About";
 import { useState } from "react";
 import Alert from "./Components/Alert";
 import Navbar from "./Components/Navbar";
 import TextForm from "./Components/TextForm";
-import {Routes, Route } from "react-router-dom";
+// import {Routes, Route } from "react-router-dom";
 
 
 function App() {
@@ -60,10 +60,11 @@ function App() {
     <>
 <Navbar title='My Project' about="About" mode={mode} enableMode={enableMode} enableGreenMode={enableGreenMode} />
 <Alert alert={alert} />
-  <Routes>
+<TextForm mode={mode} showAlert={showAlert} />
+  {/* <Routes>
     <Route exact path="/" element={<TextForm mode={mode} showAlert={showAlert} />}></Route>
     <Route exact path="/about" element={<About/>}></Route>
-  </Routes>
+  </Routes> */}
     </>
   );
 }

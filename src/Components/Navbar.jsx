@@ -1,14 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
-import {NavLink} from 'react-router-dom'
 
 const Navbar = (props) => {
   return (
     <div>
       <nav className={`navbar navbar-expand-lg navbar-${props.mode==='light'?props.mode : 'dark'} bg-${props.mode}`}>
-        <NavLink className="navbar-brand" to="/">
+        <a className="navbar-brand" href="#">
           {props.title}
-        </NavLink>
+        </a>
         <button
           className="navbar-toggler"
           type="button"
@@ -24,14 +23,14 @@ const Navbar = (props) => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
-              <NavLink className="nav-link" to="/">
+              <a className="nav-link" href="#">
                 Home <span className="sr-only">(current)</span>
-              </NavLink>
+              </a>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/about">
+              <a className="nav-link" href="#">
                 {props.about}
-              </NavLink>
+              </a>
             </li>
           </ul>
           <form className="form-inline my-2 my-lg-0">
