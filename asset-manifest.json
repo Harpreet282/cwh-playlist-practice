@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cwh-playlist-practice/static/css/main.e6c13ad2.css",
+    "main.js": "/cwh-playlist-practice/static/js/main.dee1f166.js",
+    "static/js/787.9dcca582.chunk.js": "/cwh-playlist-practice/static/js/787.9dcca582.chunk.js",
+    "index.html": "/cwh-playlist-practice/index.html",
+    "main.e6c13ad2.css.map": "/cwh-playlist-practice/static/css/main.e6c13ad2.css.map",
+    "main.dee1f166.js.map": "/cwh-playlist-practice/static/js/main.dee1f166.js.map",
+    "787.9dcca582.chunk.js.map": "/cwh-playlist-practice/static/js/787.9dcca582.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.dee1f166.js"
+  ]
+}
